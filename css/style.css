@@ -18,7 +18,28 @@ transform-style: preserve-3d;
     border-bottom-left-radius: 50% 3%;
     border-bottom-right-radius: 50% 3%;
 }
+.border-2 {
+    border-bottom-right-radius: 35% 80%;
+    border-top-right-radius: 1% 20%;
+}
+.border-3 {
+    border-bottom-right-radius: 100% 65%;
+}
+.border-4 {
+    border-bottom-right-radius: 50% 3%;
+    border-bottom-left-radius: 50% 3%;
+}
 .shadow {
     box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05) !important;
+}
+.arrow-left {
+    position: relative;
+    left: -639px;
+    top: 85px;
+}
+.arrow-right {
+    position: relative;
+    right: -401px;
+    top: 85px;
 }
 
